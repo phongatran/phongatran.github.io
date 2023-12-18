@@ -227,8 +227,7 @@ publications:
     intro: |
       Find below a list of my publications. Also available at: <a href="https://scholar.google.com/citations?user=cy3YZS8AAAAJ&hl=en" target="_blank" rel="nofollow">Google Scholar</a>
     papers:
-      - title: A genome-wide association study of contralateral breast cancer in the Women’s
-Environmental Cancer and Radiation Epidemiology Study
+      - title: A genome-wide association study of contralateral breast cancer in the Women’s Environmental Cancer and Radiation Epidemiology Study
         link: "#"
         authors: X Sun, AS Reiner, AP Tran, GP Watt, JH Oh, ...
         conference: Breast Cancer Research (To be published)
