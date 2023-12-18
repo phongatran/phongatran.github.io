@@ -54,7 +54,7 @@ sidebar:
 
 
 career-profile:
-    title: Career Profile
+    title: Home Page / Portfolio
     summary: |
       Summarise your career here lorem ipsum dolor sit amet, consectetuer
       adipiscing elit. You can [download this free resume/CV template here]().
@@ -65,6 +65,17 @@ career-profile:
 education:
     title: Education
     info:
+      - degree: Postdoc in Predictive Informatics (Medical Physics)
+        university: Memorial Sloan Kettering Cancer Center
+        time: 2021
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
       - degree: PhD in Chemical Engineering
         university: Northeastern University
         time: 2014-2020
@@ -102,43 +113,23 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: AI/ML Model Validator, Assistant Vice President
+        time: February 2022 - Present
+        company: Citibank N.A., New York
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          This role focused on validating AI/ML tools used across all areas of the bank with a focus on risk management, proper use of the algorithms, and educating stakeholders as well as peers on the newest developments in the area of AI.
+            - Evaluated AI/ML models in the areas of NLP, Computer Vision, and Fraud Detection. Main projects involved tagging audio conversations with LLMs, clustering complaints and feedbacks  with word/sentence embeddings, and identifying suspicious trades using anomaly detection techniques.
+            - In Credit Loss Forecasting, pioneered a novel internal KPI metric to assess performance breaches in weighted portfolios. Also uncovered a critical issue leading to substantial overestimation in EAD forecasting for a \$360 billion portfolio.
+            - Delivered department-wide educational content on machine learning applications, covering anomaly detection in unsupervised learning, convolution neural networks for computer vision, and NLP related topics
+            - Developing a use case of applying GenAI, GPT-4 in the validation workflow for Model Risk Management
+      - role: Postdoctoral Research Scholar in Predictive Informatics
+        time: 2021
+        company: Memorial Sloan Kettering Cancer Center, New York
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          In this role, I assisted and led various research cutting-edge projects in the area of Medical Physics using a diverse set of mathematical models and techniques to uncover ways to improve cancer treatments.
+            - Conducted pattern recognition of oscillatory time-series data showing the impact of p21 and p53 dynamics on cell cycle arrest. This research culminated in a published article in Nature's Cell Death \& Differentiation journal. 
+            - Invented innovative methods for patient classification using multi-omics data resulting in 2+ publications using Wasserstein curvature on gene networks and preconditioned random forest regression for genomics data analysis.
+            - Sped up 100X an algorithm to calculate optimal mass transport of fluid flow in glymphatic systems by implementing customized multi-core parallelization of the code and code optimization.
 
 certifications:
       title: Certifications
@@ -182,31 +173,35 @@ certifications:
             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
+    title: Coding & Machine Learning Projects
     intro: >
       You can list your side projects in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Brain2Mesh
+        link: "https://packages.debian.org/unstable/matlab-brain2mesh"
+        tagline: "3D tetrahedral mesh generation of brain models using C binaries and MATLAB."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: DBC
+        link: "https://github.com/sontaglab/DBC"
+        tagline: "MATLAB implementation of distributed computing of Boolean functions using logical gates."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: MCX
+        link: "https://github.com/fangq/mcx"
+        tagline: "CUDA/OpenCL GPU-accelerated simulation of photon light transport in biological tissues."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: mcxyzn
+        link: "https://github.com/phongatran/mcxyzn/"
+        tagline: "C/OpenMP implementation of light transport simulation with curved boundaries."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: MMC
+        link: "https://github.com/fangq/mmc"
+        tagline: "OpenMP/OpenCL implementation of mesh-based Monte Carlo for complex media"
+      - title: rOMT
+        link: "https://github.com/xinan-nancy-chen/romt"
+        tagline: "MATLAB simulation of Optimal Mass Transport applied in glymphatic-lymphatic fluid flows"
+
 
 oss:
     title: OSS Contributions
@@ -230,24 +225,58 @@ oss:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Find below a list of my publications. Also available at: <a href="https://scholar.google.com/citations?user=cy3YZS8AAAAJ&hl=en" target="_blank" rel="nofollow">Google Scholar</a>
     papers:
-      - title: The Art of Computer Programming
+      - title: A genome-wide association study of contralateral breast cancer in the Women’s
+Environmental Cancer and Radiation Epidemiology Study
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: X Sun, AS Reiner, AP Tran, GP Watt, JH Oh, ...
+        conference: Breast Cancer Research (To be published)
+      - title: Visualizing fluid flows via regularized optimal mass transport with applications to neuroscience
+        link: "#"
+        authors: X Chen, AP Tran, R Elkin, H Benveniste, AR Tannenbaum
+        conference: Journal of Scientific Computing 97 (2), 26, 2023
+      - title: Multi-omic integrated curvature study on pan-cancer genomic data
+        link: "#"
+        authors: J Zhu, AP Tran, JO Deasy, A Tannenbaum
+        conference: Mathematics of Control, Signals, and Systems, 1-20, 2023
+      - title: Long-term p21 and p53 dynamics regulate the frequency of mitosis events and cell cycle arrest following radiation damage
+        link: "#"
+        authors: AP Tran, CJ Tralie, J Reyes, C Moosmüller, Z Belkhatir, IG Kevrekidis, ...
+        conference: Cell Death & Differentiation 30 (3), 660-672, 2023
+      - title: Transient Diffusion in Bi-Layer Composites With Mass Transfer Resistance: Exact Solution and Time Lag Analysis
+        link: "#"
+        authors: AP Tran, JH Meldon, ED Sontag
+        conference: Frontiers in Chemical Engineering 2, 605197, 2021
+      - title: Distributed Implementation of Boolean Functions by Transcriptional Synthetic Circuits
+        link: "#"
+        authors: MA Al-Radhawi, AP Tran, E Ernst, T Chen, C Voigt, E Sontag
+        conference: ACS Synthetic Biology 9 (8), 2172-2187, 2020
+      - title: Modeling voxel-based Monte Carlo light transport with curved and oblique boundary surfaces
+        link: "#"
+        authors: AP Tran, SL Jacques
+        conference: Journal of Biomedical Optics 25 (2), 025001-025001, 2020
+      - title: Improving model-based functional near-infrared spectroscopy analysis using mesh-based anatomical and light-transport models
+        link: "#"
+        authors: AP Tran, S Yan, Q Fang
+        conference: Neurophotonics 7 (1), 015008, 2020
+      - title: Delicate Balances in Cancer Chemotherapy: Modeling Immune Recruitment and Emergence of Systemic Drug Resistance
+        link: "#"
+        authors: AP Tran, MA Al-Radhawi, I Kareva, J Wu, DJ Waxman, ED Sontag
+        conference: Frontiers in Immunology 11, 1376, 2020
+      - title: Dual-grid mesh-based Monte Carlo algorithm for efficient photon transport simulations in complex three-dimensional media
+        link: "#"
+        authors: S Yan, AP Tran, Q Fang
+        conference: Journal of Biomedical Optics 24 (2), 020503, 2019
+      - title: Selective photobiomodulation for emotion regulation: model-based dosimetry study
+        link: "#"
+        authors: P Cassano, AP Tran, H Katnani, BS Bleier, MR Hamblin, Y Yuan, Q Fang
+        conference: Neurophotonics 6 (1), 015004, 2019
+      - title: On the estimation of high-dimensional surrogate models of steady-state of plant-wide processes characteristics
+        link: "#"
+        authors: AP Tran, C Georgakis
+        conference: Computers & Chemical Engineering 116, 56-68, 2018
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
