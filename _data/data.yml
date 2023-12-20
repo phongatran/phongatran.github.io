@@ -56,12 +56,8 @@ sidebar:
 career-profile:
     title: Home Page / Portfolio
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Currently pursuing a career in Artificial Intelligence and Machine Learning, focusing on emerging areas such as Natural Language Processing, Computer Vision, and Reinforcement Learning. Over the years, I have published various peer-reviewed journal articles in areas of light optics, cancer research, genomics, and chemical engineering.
+
 education:
     title: Education
     info:
@@ -175,9 +171,7 @@ certifications:
 projects:
     title: Coding & Machine Learning Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Please find a list of previous projects below.
     assignments:
       - title: Brain2Mesh
         link: "https://packages.debian.org/unstable/matlab-brain2mesh"
@@ -281,23 +275,18 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: MATLAB
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: SQL
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Python
+        level: 90%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: C/C++
+        level: 80%
+
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
